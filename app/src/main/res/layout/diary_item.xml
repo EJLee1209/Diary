@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/diary_item_date"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="2020.10.01"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@drawable/diary_item"
+        android:layout_margin="10dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
