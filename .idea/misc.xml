@@ -3,10 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/background.xml" value="0.1375" />
+        <entry key="app/src/main/res/drawable/btn_login.xml" value="0.1375" />
         <entry key="app/src/main/res/drawable/diary_item.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/non_check.xml" value="0.1375" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.19337111763332204" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1645555800285892" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.24592391304347827" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.24592391304347827" />
         <entry key="app/src/main/res/layout/activity_write.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/dialog.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/diary_item.xml" value="0.26548178852468296" />
+        <entry key="app/src/main/res/layout/fragment_diary.xml" value="0.24592391304347827" />
+        <entry key="app/src/main/res/layout/fragment_to_do_list.xml" value="0.18954421333644697" />
+        <entry key="app/src/main/res/layout/todo_item.xml" value="0.26835072835286444" />
       </map>
     </option>
   </component>

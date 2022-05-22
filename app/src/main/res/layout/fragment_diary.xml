@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:background="@drawable/background"
+        android:elevation="15dp">
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2022.05.21"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+            <EditText
+                android:id="@+id/diary_content"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="오늘은 어떤 하루였나요?"
+                android:inputType="textMultiLine"/>
+            <TextView
+                android:id="@+id/current_content"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_gravity="center"/>
+
+        </FrameLayout>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="20dp">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <TextView
+                    android:id="@+id/save_diary"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="저장"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:background="@drawable/btn_login"
+                    android:layout_marginRight="50dp"/>
+                <TextView
+                    android:id="@+id/modify_diary"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="수정"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:background="@drawable/btn_login"
+                    android:layout_marginRight="50dp"
+                    android:visibility="invisible"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/delete_diary"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="삭제"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@drawable/btn_login" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:id="@+id/complete_modify"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="완료"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_login"
+            android:visibility="invisible"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
